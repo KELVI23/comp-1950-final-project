@@ -1,0 +1,20 @@
+--10
+SELECT
+		'Author' AS 'table',
+		authors.au_id,
+		left( CONCAT (authors.au_fname,' ',authors.au_lname),25) AS name,
+		authors.city,
+		authors.state,
+		authors.zip
+FROM pubs.dbo.authors
+where state in ( 'CA' , 'WA')
+union
+select 
+	'State' as 'table',
+	stores.stor_id,
+	left(stores.stor_name,25) as name,
+	stores.city,
+	stores.state,
+	stores.zip
+from pubs.dbo.stores
+where state in ( 'CA', 'WA')
