@@ -1,9 +1,16 @@
-var button = document.getElementById("menu");
-var body = document.body;
-console.count(button);
+(function() {
 
-button.addEventListener('click', function(){    
-    body.classList.toggle('open');
- });
- var items = ['Home','About The Course','Schedule','Schedule','Contact']
+	var hamburger = {
+		navToggle: document.querySelector('.nav-toggle'),
+		nav: document.querySelector('nav'),
 
+		doToggle: function(e) {
+			e.preventDefault();
+			this.navToggle.classList.toggle('expanded');
+			this.nav.classList.toggle('expanded');
+		}
+	};
+
+	hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+
+}());
