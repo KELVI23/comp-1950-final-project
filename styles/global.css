@@ -43,7 +43,7 @@ body {
 }
 
 html {
-  background: #1F2833;
+  background: #0B0C10;
   color: white;
   font: normal 10px/1.42857 "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
@@ -131,7 +131,7 @@ a:hover {
   -ms-transition: left 0.5s ease;
   -o-transition: left 0.5s ease;
   transition: left 0.5s ease;
-  background: #0B0C10;
+  background: #1F2833;
   color: #66FCF1;
   cursor: pointer;
   font-size: 2rem;
