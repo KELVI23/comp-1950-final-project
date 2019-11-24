@@ -8,9 +8,29 @@
 
       <h1>Contact</h1>
 
-			<form>
+    <p>You can contact the course's instructors by filling out the form below.</p>
 
-                
+			<form>
+                    <label for="radio-1">Current Student </label><input id="radio-1" type="radio" name="student" value="current" required>
+                    
+                    <label for="radio-2">Prospective Student </label><input id="radio-2" type="radio" name="student" value="prospective" required>
+                    
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" placeholder="required" required>
+                    
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" placeholder="required" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="required" required>
+                    
+                    <label for="studentnumber">Student Number:</label>
+                    <input type="text" name="studentnumber" id="studentname" placeholder="e.g. A0123456">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="message" rows="6" id="comments" placeholder="Please write any comments or questions here" required></textarea>
+                   
+                    <button type="submit">Submit</button>
             </form>
 			
 			
