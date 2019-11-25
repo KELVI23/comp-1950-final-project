@@ -14,3 +14,4 @@
 	hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
 
 }());
+
