@@ -19,8 +19,8 @@ var view = document.getElementsByClassName("lesson-section");
 var arr = [...view];
 
 arr.forEach(element => {
+
 	element.addEventListener("click", ()=> {
-		console.log(element);
 		var info = element.children[1];
 		info.classList.toggle("view-info");
 	}); 
