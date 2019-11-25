@@ -149,15 +149,28 @@ img {
 nav {
   background-color: #003e69;
   position: sticky;
-  top: 0px; }
+  top: 0px;
+  z-index: 3; }
 
 section h2 {
   text-align: center; }
 
-section h2:hover {
+.lesson-section h2:hover {
   background-color: rgba(0, 0, 255, 0.295); }
+
+.agenda-info ul {
+  display: inline-block;
+  transform: translateX(25vw);
+  z-index: -2; }
 
 .toggle-lesson {
   background-color: green; }
+
+.view-info {
+  display: none; }
+
+.lesson-section {
+  width: 90%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=global.css.map */
