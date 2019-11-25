@@ -1,0 +1,35 @@
+
+body{
+    background-color: $bodycolor;
+    color: $font_color;
+    font-size: 1.5em;
+}
+
+img{
+    height: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.bcit-mobile-navigation{
+    position: relative;
+    height: 100px;
+}
+
+nav{
+    background-color: $mobile-top-nav-color;
+    position: sticky;
+    top: 0px;
+}
+
+section h2{
+    text-align: center;
+}
+
+section h2:hover{
+    background-color: rgba(0, 0, 255, 0.295);
+}
+
+.toggle-lesson{
+    background-color: green;
+}
