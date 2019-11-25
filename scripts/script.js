@@ -15,6 +15,8 @@
 
 }());
 
+slideshow
+
 var view = document.getElementsByClassName("lesson-section");
 var arr = [...view];
 
@@ -25,4 +27,6 @@ arr.forEach(element => {
 		info.classList.toggle("view-info");
 	}); 
 });
+
+master
 
