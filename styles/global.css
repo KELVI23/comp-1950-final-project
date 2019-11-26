@@ -342,6 +342,7 @@ button {
   grid-auto-flow: dense;
   grid-gap: 2px 10px;
   font-size: 25px;
+  margin-left: 350px;
 }
 
 .day {

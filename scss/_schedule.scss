@@ -5,7 +5,32 @@ button{
 }
 
 /*CLASSES*/
+.lesson-days{
+  margin-left: 350px;
 
+}
+.section-one{
+display: flex;
+}
+  .section-two li{
+  flex-direction: column;
+  display: block;
+}
+
+  .section-two{
+  display: flex;
+  }
+  .section-two li{
+    flex-direction: column;
+    display: block;
+  }
+
+a {
+  color:  #66FCF1;;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover { opacity: 0.8; }
+}
 .calendar{
   margin: 20px;
 }
@@ -15,6 +40,7 @@ button{
   grid-auto-flow: dense;
   grid-gap: 2px 10px;
   font-size: 25px;
+  margin-left: 350px;
 }
 
 .day {
