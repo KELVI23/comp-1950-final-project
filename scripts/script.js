@@ -15,13 +15,16 @@
 
 }());
 
-var view = document.getElementsByTagName("h2");
+var view = document.getElementsByClassName("lesson-section");
 var arr = [...view];
 
 arr.forEach(element => {
 	element.addEventListener("click", ()=> {
-
-		element.classList.toggle("toggle-lesson");
+		var info = element.children[1];
+		var header = element.children[0];
+		var set = 0;
+		info.classList.toggle("view-info");
+		header.children[1].classList.toggle("image");
 	}); 
 });
 
