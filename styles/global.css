@@ -137,7 +137,7 @@ body {
   color: black;
   font-size: 1.5em; }
 
-img {
+nav img {
   height: 100px;
   position: absolute;
   right: 0px; }
@@ -153,7 +153,9 @@ nav {
   z-index: 3; }
 
 section h2 {
-  text-align: center; }
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 0; }
 
 .lesson-section h2:hover {
   background-color: rgba(0, 0, 255, 0.295); }
@@ -169,8 +171,21 @@ section h2 {
 .view-info {
   display: none; }
 
-.lesson-section {
+.image {
+  content: url("../images/collapse-arrow.png"); }
+
+.lesson-section,
+.agenda {
   width: 90%;
   margin: 0 auto; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; }
+
+header img {
+  max-height: 35px;
+  transform: translateY(1vh); }
 
 /*# sourceMappingURL=global.css.map */
