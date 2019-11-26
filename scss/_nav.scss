@@ -4,9 +4,10 @@
 /* colors */
 $darkestcolor: #0B0C10;
 $darkgrey: #1F2833;
+$bodycolor: white;
 
 /* variables */
-$html-background: $darkestcolor;
+$html-background: $bodycolor;
 $html-font: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $nav-toggle-bar-color: #66FCF1;
 $nav-toggle-bar-height: 0.4rem;
@@ -64,12 +65,19 @@ $z-nav: 1;
 	@include text-size-adjust;
 	&:focus { outline: none; }
 }
+
 html {
 	background: $html-background;
 	color: white;
 	font: normal 10px/1.42857 $html-font;
 }
-body { background: none; color: inherit; font: inherit; }
+
+body { 
+	background-color: white; 
+	color: inherit; 
+	font: inherit; 
+}
+
 a {
   color: inherit;
   cursor: pointer;
@@ -113,11 +121,11 @@ a {
 }
 
 /* nav */
-.nav {
+.nav{
 	@include transition(left 0.5s ease);
 	background: $nav-background;
 	color: $nav-color;
-  cursor: pointer;
+  	cursor: pointer;
 	font-size: 2rem;
 	height: 100vh;
 	left: -$nav-width;

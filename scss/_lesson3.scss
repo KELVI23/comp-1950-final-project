@@ -1,0 +1,72 @@
+
+body{
+    background-color: $bodycolor;
+    color: $font_color;
+    font-size: 1.5em;
+}
+
+nav img{
+    height: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.bcit-mobile-navigation{
+    position: relative;
+    height: 100px;
+}
+
+nav{
+    background-color: $mobile-top-nav-color;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+section h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0;
+    
+    
+}
+
+.lesson-section h2:hover{
+    background-color: rgba(0, 0, 255, 0.295);
+}
+
+.agenda-info ul{
+    display: inline-block;
+    transform: translateX(25vw);
+    z-index: -2;
+}
+
+.toggle-lesson{
+    background-color: green;
+}
+
+.view-info{
+    display: none;
+}
+
+.image{
+    content: url("../images/collapse-arrow.png");
+}
+
+.lesson-section,
+.agenda{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header img{
+    max-height: 35px;
+    transform: translateY(1vh);
+}
+
