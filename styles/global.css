@@ -62,56 +62,45 @@ a {
   position: fixed;
   top: 2rem;
   width: 3.6rem;
-  z-index: 2;
-}
-.nav-toggle:hover {
-  opacity: 0.8;
-}
-.nav-toggle .nav-toggle-bar,
-.nav-toggle .nav-toggle-bar::after,
-.nav-toggle .nav-toggle-bar::before {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  background: #66FCF1;
-  content: "";
-  height: 0.4rem;
-  width: 100%;
-}
-.nav-toggle .nav-toggle-bar {
-  margin-top: 0;
-}
-.nav-toggle .nav-toggle-bar::after {
-  margin-top: 0.8rem;
-}
-.nav-toggle .nav-toggle-bar::before {
-  margin-top: -0.8rem;
-}
-.nav-toggle.expanded .nav-toggle-bar {
-  background: transparent;
-}
-.nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
-  background: #66FCF1;
-  margin-top: 0;
-}
-.nav-toggle.expanded .nav-toggle-bar::after {
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.nav-toggle.expanded .nav-toggle-bar::before {
-  -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
+  z-index: 2; }
+  .nav-toggle:hover {
+    opacity: 0.8; }
+  .nav-toggle .nav-toggle-bar,
+  .nav-toggle .nav-toggle-bar::after,
+  .nav-toggle .nav-toggle-bar::before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #66FCF1;
+    content: '';
+    height: 0.4rem;
+    width: 100%; }
+  .nav-toggle .nav-toggle-bar {
+    margin-top: 0; }
+  .nav-toggle .nav-toggle-bar::after {
+    margin-top: 0.8rem; }
+  .nav-toggle .nav-toggle-bar::before {
+    margin-top: -0.8rem; }
+  .nav-toggle.expanded .nav-toggle-bar {
+    background: transparent; }
+  .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+    background: #66FCF1;
+    margin-top: 0; }
+  .nav-toggle.expanded .nav-toggle-bar::after {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .nav-toggle.expanded .nav-toggle-bar::before {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
 
 /* nav */
 .nav {
@@ -179,111 +168,6 @@ section h2 {
 .toggle-lesson {
   background-color: green; }
 
-slideshow
-/*option 1*/
-/*.issuuembed{
-
-}
-
-*/
-/*Option 2*/
-*::before, ::after {
-  box-sizing: border-box;
-}
-
-.hSlide {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
-.slideshow {
-  height: 350px;
-  widows: 600px;
-  margin-top: 0;
-}
-
-/* Slideshow container */
-.container {
-  height: 350px;
-  widows: 600px;
-  margin-left: 350px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.position {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #66FCF1;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.show {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes show {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes show {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
-
-  .numbertext {
-    display: none;
-  }
-}
-=======
 .view-info {
   display: none; }
 
@@ -294,7 +178,6 @@ img {
 .agenda {
   width: 90%;
   margin: 0 auto; }
-master
 
 header {
   display: flex;
@@ -304,5 +187,90 @@ header {
 header img {
   max-height: 35px;
   transform: translateY(1vh); }
+
+/*option 1*/
+/*.issuuembed{
+
+}
+
+*/
+/*Option 2*/
+*::before, ::after {
+  box-sizing: border-box; }
+
+.hSlide {
+  display: none; }
+
+img {
+  vertical-align: middle; }
+
+.slideshow {
+  height: 350px;
+  width: 600px;
+  margin: 0 0 0 0; }
+
+/* Slideshow container */
+.container {
+  height: 350px;
+  width: 600px;
+  margin-left: 350px;
+  position: relative;
+  margin: auto; }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center; }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0; }
+
+/* The dots/bullets/indicators */
+.position {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #66FCF1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active {
+  background-color: #717171; }
+
+/* Fading animation */
+.show {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes show {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes show {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px; }
+
+  .numbertext {
+    display: none; } }
 
 /*# sourceMappingURL=global.css.map */
