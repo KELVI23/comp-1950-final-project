@@ -446,4 +446,8 @@ button {
   grid-column-end: span 7;
 }
 
+.side-nav {
+  display: none;
+}
+
 /*# sourceMappingURL=global.css.map */
