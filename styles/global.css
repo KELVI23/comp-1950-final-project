@@ -367,4 +367,7 @@ a {
 [data-span="7"] {
   grid-column-end: span 7; }
 
+.side-nav {
+  display: none; }
+
 /*# sourceMappingURL=global.css.map */
