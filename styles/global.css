@@ -251,7 +251,7 @@ img {
 
 }*/
 /* Slideshow container */
-.container {
+.slide-container {
   margin-left: 350px;
   position: relative;
   margin: auto;
@@ -326,13 +326,39 @@ img {
     display: none;
   }
 }
-@me;
+@media (max-width: 450px) {
+  .position {
+    margin-left: 250px;
+  }
+}
 /*elements*/
 button {
   cursor: default;
 }
 
 /*CLASSES*/
+.lesson-days {
+  margin-left: 350px;
+}
+
+.section-one {
+  display: flex;
+}
+
+.section-two li {
+  flex-direction: column;
+  display: block;
+}
+
+.section-two {
+  display: flex;
+}
+
+.section-two li {
+  flex-direction: column;
+  display: block;
+}
+
 .calendar {
   margin: 20px;
 }
