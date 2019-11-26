@@ -198,7 +198,7 @@ section h2 {
 }
 
 .toggle-lesson {
-  background-color: green;
+  background-color: #66FCF1;
 }
 
 .view-info {
@@ -343,20 +343,23 @@ button {
 
 .section-one {
   display: flex;
+  padding: 10px;
 }
 
 .section-two li {
   flex-direction: column;
-  padding: 10;
+  padding: 10px;
   display: block;
 }
 
 .section-two {
   display: flex;
+  padding: 10px;
 }
 
 .section-two li {
   flex-direction: column;
+  padding: 10px;
   display: block;
 }
 
