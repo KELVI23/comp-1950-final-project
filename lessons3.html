@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="icon" href="images/favicon.ico">
     <title>Lesson 3</title>
 </head>
 <body>
@@ -31,7 +32,10 @@
         <main>
             <div class="lesson-content">
                 <section class="agenda">
-                    <h2>Agenda</h2>
+                    <header>
+                        <h2>Agenda</h2>
+                        
+                    </header>
                     <div class="agenda-info">
                             <ul>
                                     <li>Referencing Stylesheets</li>
@@ -48,7 +52,10 @@
                     </div>      
                 </section>
                 <section class="lesson-section ref-css">
-                    <h2>Referencing CSS</h2>
+                    <header>
+                        <h2>Referencing CSS</h2>
+                        <img  src="images/expand-arrow.png" alt="expand view">
+                    </header>
                     <div class="lesson-content view-info">
                             <p>When linking to external style sheets, there are a number of features to be aware of:</p>
                             <ul>
@@ -129,8 +136,11 @@
                     </div>      
                 </section>
                 <section class="lesson-section import">
+                    <header>
                             <h2>@import: Managing Multiple CSS Files</h2>
-                            <div class="lesson-content view-info">
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
+                    <div class="lesson-content view-info">
                                     <p>You can use the <strong>@import</strong> method to import multiple stylesheets from a basic stylesheet that you link to. This will reduce the clutter that can sometimes occur within the <strong>&lt;head></strong> section.</p>
                                     <p>It is also a great place to be able to manage your CSS. From your main document, create a <strong>&lt;link></strong> to your <strong>styles.css</strong> page.</p>
                                     <p>In the body of the <strong>styles.css</strong> file, import as many files as you need:</p>
@@ -140,11 +150,14 @@
                                         <li><strong>@import url("css/template.css");</strong></li>
                                     </ul>
                                     <p><strong>NOTE: </strong> when using the <strong>@import</strong> directive in an external CSS file, ensure it comes before your CSS selector rules. It might be best to not include any CSS rules in a page that uses <strong>@import</strong>.</p>
-                            </div>
-                            
+                    </div>     
                 </section>
                 <section class="lesson-section charset">
+                    <header>
                             <h2>@charset: Assigning CSS Character Set</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
+                            
                             <div class="lesson-section view-info">
                                     <p>If your CSS files only contain standard keyboard characters, assigning the character set is not required. The CSS language itself does not use any exotic characters, so assigning a charset is often omitted. If, however, your CSS needs to use special characters, ensuring the correct character set can be very important. Eg: When using a pseudoclass to add content to HTML <strong>content: "Awesome!"</strong></p>
                                     <p>If needed, add the <strong>@charset</strong> rule to the top of the CSS document.</p>
@@ -155,7 +168,10 @@
                             
                 </section>
                 <section class="lesson-section fontface">
+                    <header>
                             <h2>@font-face And Font Servers</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
                             <div class="lesson-section view-info">
                                     <p>Fonts that aren't available on the client machine can be provided by a third-party font server or by your website's server.</p>
                                     <ul>
@@ -200,7 +216,10 @@
                             
                 </section>
                 <section class="lesson-section css-measure">
+                    <header>
                             <h2>CSS Measurements</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
                             <div class="lesson-section view-info">
                                     <p>In CSS, there are a number of measurement values that can be used in declarations.</p>
                                     <h3>Size measurements</h3>
@@ -228,7 +247,11 @@
                             
                 </section>
                 <section class="lesson-section compact-css">
+                    <header>
                             <h2>Compact CSS Code</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
+                            
                             <div class="lesson-section view-info">
                                     <p>When building your CSS rules, there are some easy ways to compact your code, reducing code bloat and file size.</p>
                                     <h3>Grouping selectors</h3>
@@ -292,7 +315,10 @@
                             
                 </section>
                 <section class="lesson-section css-selectors">
+                    <header>
                             <h2>CSS Selectors</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>                         
                             <div class="lesson-section view-info">
                                     <p>There are several <a href="http://css.maxdesign.com.au/selectutorial/" target="_blank">advanced CSS selector techniques</a> that provide plenty of options for the application of style.</p>
                                     <h3>Universal Selector</h3>
@@ -380,7 +406,11 @@
                             </div>    
                 </section>
                 <section class="lesson-section rule-order">
+                    <header>
                             <h2>Rule Order &amp; Specificity</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
+                            
                             <div class="lesson-section view-info">
                                     <p>When a style declaration is found to be in conflict with a previously declared style, there is a method for determining which one will win out. The process is built into every web browser, and almost all of them calculate the values identically (for once!).</p>
                                     <p>Here is how the W3C defines the process by which style order is determined:</p>
@@ -420,7 +450,11 @@
                             </div>                
                 </section>
                 <section class="lesson-section todo">
+                    <header>
                             <h2>To Do</h2>
+                            <img src="images/expand-arrow.png" alt="expand view">
+                    </header>
+                            
                             <div class="lesson-content view-info">
                                     <ul>
                                             <li>Download, review, and complete the homework assignment from <a href="https://learn.bcit.ca/" target="_blank">D2L</a></li>
