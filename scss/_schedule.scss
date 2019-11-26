@@ -11,26 +11,30 @@ button{
 }
 .section-one{
 display: flex;
+padding: 10px;
 }
   .section-two li{
   flex-direction: column;
+  padding: 10px;
   display: block;
 }
 
   .section-two{
   display: flex;
+  padding: 10px;
   }
   .section-two li{
     flex-direction: column;
+    padding: 10px;
     display: block;
   }
 
-a {
-  color:  #66FCF1;;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover { opacity: 0.8; }
-}
+// a {
+//   color:  #66FCF1;;
+//   cursor: pointer;
+//   text-decoration: none;
+//   &:hover { opacity: 0.8; }
+// }
 .calendar{
   margin: 20px;
 }

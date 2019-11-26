@@ -251,7 +251,7 @@ img {
 
 }*/
 /* Slideshow container */
-.container {
+.slide-container {
   margin-left: 350px;
   position: relative;
   margin: auto;
@@ -326,12 +326,40 @@ img {
     display: none;
   }
 }
+@media (max-width: 450px) {
+  .position {
+    margin-left: 250px;
+  }
+}
 /*elements*/
 button {
   cursor: default;
 }
 
 /*CLASSES*/
+.lesson-days {
+  margin-left: 350px;
+}
+
+.section-one {
+  display: flex;
+}
+
+.section-two li {
+  flex-direction: column;
+  padding: 10;
+  display: block;
+}
+
+.section-two {
+  display: flex;
+}
+
+.section-two li {
+  flex-direction: column;
+  display: block;
+}
+
 .calendar {
   margin: 20px;
 }
@@ -417,6 +445,10 @@ button {
 
 [data-span="7"] {
   grid-column-end: span 7;
+}
+
+.side-nav {
+  display: none;
 }
 
 /*# sourceMappingURL=global.css.map */
