@@ -245,16 +245,13 @@ img {
   vertical-align: middle;
 }
 
-.slideshow {
-  height: 350px;
-  width: 600px;
-  margin: 0 0 0 0;
-}
+/*.slideshow{
 
+    margin: 0 0 0 0 ;
+
+}*/
 /* Slideshow container */
 .container {
-  height: 350px;
-  width: 600px;
   margin-left: 350px;
   position: relative;
   margin: auto;
