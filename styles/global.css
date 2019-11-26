@@ -347,6 +347,7 @@ button {
 
 .section-two li {
   flex-direction: column;
+  padding: 10;
   display: block;
 }
 
