@@ -24,7 +24,7 @@ img {vertical-align: middle;
 }*/
 
 /* Slideshow container */
-.container {
+.slide-container {
     
   margin-left:350px;
   position: relative;
@@ -91,5 +91,10 @@ img {vertical-align: middle;
   .text {font-size: 11px}
   .numbertext{
   display:none;
+}
+}
+@media(max-width: 450px){
+.position{
+  margin-left: 250px;
 }
 }
