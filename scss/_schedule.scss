@@ -5,10 +5,10 @@ button{
 }
 
 /*CLASSES*/
-.lesson-days{
-  margin-left: 350px;
+// .lesson-days{
+//   margin-left: 350px;
 
-}
+// }
 .section-one{
 display: flex;
 padding: 10px;
@@ -44,12 +44,12 @@ padding: 10px;
   grid-auto-flow: dense;
   grid-gap: 2px 10px;
   font-size: 25px;
-  margin-left: 350px;
+  // margin-left: 350px;
 }
 
 .day {
   display:contents;
-  background-color: #DDD; /* if display contents, this won't color */
+  background-color: rgb(6, 232, 240); /* if display contents, this won't color */
 }
 .day-label {
   grid-row-start: 1;
@@ -62,7 +62,7 @@ padding: 10px;
 }
 
 .event {
-  background-color: #CCC;
+  background-color: rgb(8, 221, 203);
 }
 
 .event-end { 
@@ -88,4 +88,28 @@ padding: 10px;
 [data-span="6"] { grid-column-end: span 6; }
 [data-span="7"] { grid-column-end: span 7; }
 
+@media only screen and (max-width: 600px){
+  
+  .week {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1px 5px;
+    font-size: 14px;
+    margin-left: 0;
+  }
+  
+  .calendar{
 
+  
+    margin: 0;
+  }
+  .week-day, .day-label, .event {
+    padding: 1px 2.5px;
+  }
+.days{
+  padding: 1 2.5px;
+  font-size: 14px;
+}
+
+}
