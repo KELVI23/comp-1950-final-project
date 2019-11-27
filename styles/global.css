@@ -378,7 +378,7 @@ button {
 
 .day {
   display: contents;
-  background-color: #DDD;
+  background-color: #dddddd;
   /* if display contents, this won't color */
 }
 
@@ -393,7 +393,7 @@ button {
 }
 
 .event {
-  background-color: #CCC;
+  background-color: #cccccc;
 }
 
 .event-end {
@@ -450,6 +450,24 @@ button {
   grid-column-end: span 7;
 }
 
+@media only screen and (max-width: 550px) {
+  .week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1px 5px;
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .calendar {
+    margin: 0;
+  }
+
+  .week-day, .day-label, .event {
+    padding: 1px 2.5px;
+  }
+}
 .side-nav {
   display: none;
 }
