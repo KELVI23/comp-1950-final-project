@@ -9,13 +9,14 @@
 
 /*Option 2*/
 *::before, ::after{ box-sizing: border-box;}
-.hSlide{display: none;
+.hSlide{
+  display: none;
 
 }
 
 
-img {vertical-align: middle;
- 
+img {
+  vertical-align: middle;
 }
 /*.slideshow{
     
@@ -26,7 +27,7 @@ img {vertical-align: middle;
 /* Slideshow container */
 .slide-container {
     
-  margin-left:350px;
+  // margin-left:350px;
   position: relative;
   margin: auto;
 
@@ -86,15 +87,28 @@ img {vertical-align: middle;
   to {opacity: 1}
 }
 
+
+.slideshow{
+  display: none;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
   .numbertext{
-  display:none;
-}
+    display:none;
+  }
 }
 @media(max-width: 450px){
 .position{
   margin-left: 250px;
 }
 }
+
+@media only screen and (min-width: 550px){
+  .slideshow{
+    display: block;
+  }
+}
+
+
