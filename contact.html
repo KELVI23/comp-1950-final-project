@@ -31,7 +31,8 @@
 
     <p>You can contact the course's instructors by filling out the form below.</p>
 
-			<form action="post" action="thank-you.php">
+            <form id="contactform">
+
                     <label for="radio-1">Current Student </label><input id="radio-1" type="radio" name="student" value="current" required>
                     
                     <label for="radio-2">Prospective Student </label><input id="radio-2" type="radio" name="student" value="prospective" required>
@@ -52,8 +53,9 @@
                     <textarea name="message" rows="6" id="comments" placeholder="Please write any comments or questions here" required></textarea>
                    
                     <div class="formsubmit">
-                        <button type="submit" value=" Submit form " class="subbutton">Submit</button>
-                        <input type="reset" value=" Reset form ">
+                        <button type="submit" value="Submit form" class="subbutton" onclick="myFunction()" required>Submit</button>
+
+                        <input type="reset" value="Reset form">
                         </div>
                     
             </form>
