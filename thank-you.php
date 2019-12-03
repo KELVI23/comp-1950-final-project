@@ -6,7 +6,6 @@ $pgClass = 'pg-thank-you';
 include './templates/header.php';
 
 ?>
-<body class="wrapper">
     <section class="thank-you">
 
         <h1>Thank You</h1>
@@ -20,7 +19,7 @@ include './templates/header.php';
         <?php endif ?>
 
     </section>
-        </body>
+    
 <?php 
 
 include './templates/footer.php';
