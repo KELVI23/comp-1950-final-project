@@ -90,7 +90,30 @@ padding: 10px;
 [data-span="6"] { grid-column-end: span 6; }
 [data-span="7"] { grid-column-end: span 7; }
 
+@media only screen and (max-width: 600px){
+  
+  .week {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1px 5px;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .calendar{
+  margin: 0;
+  }
+  
+  .week-day, .day-label, .event {
+    padding: 1px 2.5px;
+  }
+.days{
+  padding: 1px 2.5px;
+  font-size: 14px;
+}
 
+}
 .mobile-day{
   // display: none;
   visibility: hidden;

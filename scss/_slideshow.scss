@@ -1,12 +1,30 @@
+.banner{
+  position: relative;
+  background-color: black;
+}
+
+.banner h1{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #66FCF1;
+
+}
+.banner img{
+  opacity: 0.6;
+}
+
+.home-banner{
+  position: relative;
+}
 /*option 1*/
 
 /*.issuuembed{
-
 }
 
 */
-
-
 /*Option 2*/
 *::before, ::after{ box-sizing: border-box;}
 .hSlide{
@@ -110,5 +128,4 @@ img {
     display: block;
   }
 }
-
 

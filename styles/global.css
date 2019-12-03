@@ -49,9 +49,10 @@ html {
 }
 
 body {
-  background-color: white;
-  color: inherit;
-  font: inherit;
+  color: black;
+  font-size: 1.5em; }
+.overview-top, footer {
+  background: white; 
 }
 
 a {
@@ -62,6 +63,34 @@ a {
 a:hover {
   opacity: 0.8;
 }
+
+p {
+  font-size: 1.2em;
+  line-height: 35px; }
+
+.banner {
+  height: 400px; }
+
+.banner img {
+  object-fit: cover;
+  height: 400px; }
+
+.overview p {
+  padding: 20px;
+  font-size: 1.2em; }
+
+.overview-info {
+  background: white;
+  margin: 20px; }
+
+.overview-info p {
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-weight: bold; }
+
+.overview-info p {
+  color: black; }
 
 /* nav toggle */
 .nav-toggle {
@@ -157,6 +186,21 @@ a:hover {
   padding: 0;
 }
 
+footer {
+  background-image: url("..images/mac-monitor");
+  padding: 20px; }
+
+footer li {
+  list-style: none;
+  line-height: 40px;
+  font-weight: 600px; }
+
+.address-info {
+  text-align: right; }
+
+.address-info p {
+  line-height: 20px; }
+
 body {
   background-color: white;
   color: black;
@@ -170,8 +214,7 @@ nav img {
 }
 
 .bcit-mobile-navigation {
-  position: relative;
-  height: 100px;
+  height: 100px; }
 }
 
 nav {
@@ -226,9 +269,26 @@ header img {
   transform: translateY(1vh);
 }
 
+.banner {
+  position: relative;
+  background-color: black; }
+
+.banner h1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #66FCF1; }
+
+.banner img {
+  opacity: 0.6; }
+
+.home-banner {
+  position: relative; }
+
 /*option 1*/
 /*.issuuembed{
-
 }
 
 */
@@ -399,7 +459,7 @@ button {
 }
 
 .event {
-  background-color: #08ddcb;
+  background-color: #08ddcb; }
 }
 
 .event-end {
@@ -467,6 +527,17 @@ button {
     grid-auto-flow: dense;
     grid-gap: 1px 5px;
     font-size: 14px;
+    margin: 0; }
+
+  .calendar {
+    margin: 0; }
+
+  .week-day, .day-label, .event {
+    padding: 1px 2.5px; }
+
+  .days {
+    padding: 1px 2.5px;
+    font-size: 14px; } }
     margin: 0;
   }
 
@@ -553,5 +624,9 @@ button {
     margin: 0;
   }
 }
+
+.page-wrapper-index {
+  background-color: #020024;
+  background: linear-gradient(90deg, #020024 0%, #3c0979 52%, #00d4ff 100%); }
 
 /*# sourceMappingURL=global.css.map */
