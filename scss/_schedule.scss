@@ -90,7 +90,13 @@ padding: 10px;
 [data-span="6"] { grid-column-end: span 6; }
 [data-span="7"] { grid-column-end: span 7; }
 
-@media only screen and (max-width: 600px){
+
+.mobile-day{
+  // display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 650px){
   
   .week {
     display:grid;
@@ -105,12 +111,54 @@ padding: 10px;
   margin: 0;
   }
   
-  .week-day, .day-label, .event {
+  .mobile-day, .day-label, .event {
     padding: 1px 2.5px;
   }
 .days{
   padding: 1px 2.5px;
   font-size: 14px;
 }
+.week-day{
+  display: none;
+}
+.mobile-day{
+  visibility: visible;
+}
 
 }
+@media only screen and (max-width: 400px){
+  
+  .week {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1px 2.5px;
+    font-size: 10px;
+    margin: 0;
+  }
+  
+  .calendar{
+  margin: 0;
+  }
+  
+  .mobile-day, .day-label, .event {
+    padding: 0.5px 1.25px;
+  }
+.days, .week-day{
+
+  padding: 0.5px 1.25px;
+  font-size: 10px;
+}
+.week-day{
+  display: none;
+}
+.mobile-day{
+  visibility: visible;
+}
+
+}
+
+
+
+
+
