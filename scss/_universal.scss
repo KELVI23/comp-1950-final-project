@@ -1,0 +1,43 @@
+//FOR UNIVERSAL IMPORTS
+
+
+// wrapper
+.wrapper{
+    margin-left:100px ; 
+    margin-right:100px ;  
+}
+
+
+.toast{
+    position: relative;
+    display: inline-block;
+    // border-bottom: 1px dotted rgb(0, 247, 247);
+}
+
+.toast .toasttext {
+    visibility: hidden;
+    width: 65px;
+    color:#000 ;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    background-color:rgb(0, 247, 247) ;
+
+
+//position
+position: absolute;
+z-index: 1;
+}
+
+.toast:hover .toasttext{
+    visibility: visible;
+}
+//toast pop-up should only show on desktop
+@media only screen and (max-width: 980px){
+    .toast:hover .toasttext{
+        visibility: hidden;
+    }
+    .wrapper{
+        margin: 0;
+    }
+}
