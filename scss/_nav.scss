@@ -73,10 +73,14 @@ html {
 	font: normal 10px/1.42857 $html-font;
 }
 
-body { 
-	background-color: $body_color; 
-	color: inherit; 
-	font: inherit; 
+body{
+    color: $font_color;
+    font-size: 1.5em;
+}
+
+.overview-top, footer{
+	background: white;
+
 }
 
 a {
@@ -85,6 +89,45 @@ a {
   text-decoration: none;
   &:hover { opacity: 0.8; }
 }
+
+p{
+	font-size: 1.2em;
+	line-height: 35px;
+}
+
+.banner{
+	height: 400px;
+}
+
+.banner img{
+	object-fit: cover;
+	height: 400px;
+}
+
+.overview p{
+	padding: 20px;
+	font-size: 1.2em;
+	
+}
+
+.overview-info{
+	// background: $background-overview1;
+	// background: $background-overview2;
+	background: white;
+	margin: 20px;
+}
+
+.overview-info p{
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-weight: bold;
+}
+.overview-info p{
+	color: black;
+}
+
+
 
 /* nav toggle */
 .nav-toggle {
