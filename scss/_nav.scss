@@ -156,9 +156,17 @@ body{
 		left: 0;
 	}
 
-	.desktop-nav ul{
+	.nav{
 		display: flex;
-		
+	}
+
+	.nav ul{
+		display: flex;
+		top: 0%;
+		color: white;
+		z-index: 57689;
+		right: 0px;
+		margin-left: 300px;
 	}
 }
 

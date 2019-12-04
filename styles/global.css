@@ -138,8 +138,16 @@ body {
   nav img {
     left: 0; }
 
-  .desktop-nav ul {
-    display: flex; } }
+  .nav {
+    display: flex; }
+
+  .nav ul {
+    display: flex;
+    top: 0%;
+    color: white;
+    z-index: 57689;
+    right: 0px;
+    margin-left: 300px; } }
 body {
   background-color: white;
   color: black;
@@ -495,6 +503,9 @@ button {
     visibility: visible; } }
 .side-nav {
   display: none; }
+
+.all-lessons div {
+  margin-bottom: 20px; }
 
 .page-wrapper-index {
   background-color: #020024;
