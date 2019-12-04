@@ -533,6 +533,10 @@ button {
   grid-column-end: span 7;
 }
 
+.mobile-day {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 600px) {
   .week {
     display: grid;
@@ -556,6 +560,37 @@ button {
     font-size: 14px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .week-day {
+    display: none;
+  }
+
+  .mobile-day {
+    visibility: visible;
+  }
+
+  .week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1px 2.5px;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .calendar {
+    margin: 0;
+  }
+
+  .week-day, .day-label, .event {
+    padding: 0.5px 1.25px;
+  }
+
+  .days, .week-day {
+    padding: 0.5px 1.25px;
+    font-size: 10px;
+  }
+}
 .side-nav {
   display: none;
 }
@@ -563,6 +598,42 @@ button {
 .page-wrapper-index {
   background-color: #020024;
   background: linear-gradient(90deg, #020024 0%, #3c0979 52%, #00d4ff 100%);
+}
+
+.wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.toast {
+  position: relative;
+  display: inline-block;
+}
+
+.toast .toasttext {
+  visibility: hidden;
+  width: 65px;
+  color: #000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  background-color: #00f7f7;
+  position: absolute;
+  z-index: 1;
+}
+
+.toast:hover .toasttext {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 980px) {
+  .toast:hover .toasttext {
+    visibility: hidden;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=global.css.map */
