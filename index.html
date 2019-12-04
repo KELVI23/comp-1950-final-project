@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +11,13 @@
 <body class="wrapper">
 <div class="page-wrapper-index">
   <nav>
+    <div class="bcit-mobile-navigation">
       <div class="nav">
           <div class="nav-toggle">
               <div class="nav-toggle-bar">
               </div>
           </div>
-          <ul>
+          <ul >
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About the Course</a></li>
               <li><a href="schedule.html">Schedule</a></li>
@@ -25,72 +25,65 @@
               <li><a href="contact.html">Contact</a></li>
           </ul>   
       </div>
-      <div class="bcit-mobile-navigation">
-              <img src="images/bcit-logo.svg" alt="">
-      </div>
+      <img src="images/bcit-logo.svg" alt="">
+    </div>
+    <!-- <section class="desktop-nav">
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About the Course</a></li>
+          <li><a href="">Schedule</a></li>
+          <li><a href="">Lessons</a></li>
+          <li><a href="">Contact</a></li>
+      </ul>
+    </section> -->
   </nav>
   <main>
-      <div class="banner">
+    <div class="banner">
+        <img src="images/code.jpg" alt="book laptop">
+        <h1>Welcome to COMP 1950</h1>
+    </div>
+    <section class="slideshow">
+      <div class="hSlide show banner">
           <img src="images/code.jpg" alt="book laptop">
           <h1>Welcome to COMP 1950</h1>
-        </div>
-       
-    <section class="slideshow" >
-      <div class="hSlide show">
         <!-- <div class="numbering">1 / 9</div> -->
-      <img src="images/british-columbia-institute-of-technology-bcit-vector-logo.png" >  
+        <!-- <img src="images/british-columbia-institute-of-technology-bcit-vector-logo.png" >   -->
       </div>
-      <div class="hSlide show">
+      <div class="hSlide show banner">
         <!-- <div class="numbertext">2 / 9</div> -->
-      <img src="images/book-laptop.jpg" >
-
-
+        <img src="images/book-laptop.jpg">
+        <h1>Learn</h1>
       </div>
-      <div class="hSlide show">
+      <div class="hSlide show banner">
         <!-- <div class="numbertext">3 / 9</div> -->
         <img src="images/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355.jpg" >
+        <!-- <div class="numbertext">9 / 9</div> -->
+        <h1>Collaborate</h1>
+      </div>  
+      <div class="hSlide show banner">
+        <!-- <div class="numbertext">4 / 9</div> -->
+        <img src="images/sfu.png">
+        <h1>Bond</h1>
       </div>
-
-        <div class="hSlide show">
-          <!-- <div class="numbertext">4 / 9</div> -->
-        <img src="images/sfu.png" >
-          
-        </div>
-        <div class="hSlide show">
-              <!-- <div class="numbertext">5 / 9</div> -->
-              <img src="images/code.jpg">
-            
-        </div>
-        <div class="hSlide show">
-        <!-- <div class="numbertext">6 / 9</div> -->
-        <img src="images/IMG_5491.JPG">        
-        </div>
-        <div class="hSlide show">
+      <div class="hSlide show banner">
         <!-- <div class="numbertext">7 / 9</div> -->
-        <img src="images/table-group.jpg"  >
-        </div>
-        <div class="hSlide show">-->
-                          <!-- <div class="numbertext">8 / 9</div> -->
-                          <img src="images/mac-monitor.jpg" >
-                        
-                        </div>
-
-        <div class="hSlide show">
-              <!-- <div class="numbertext">9 / 9</div> -->
-              <img src="images/group-working (1).jpg" >
-            
-        </div>                
+        <img src="images/table-group.jpg">
+        <h1>Create</h1>
       </div>
-      <div>
-    <span class="position"></span> 
-    <span class="position"></span> 
-    <span class="position"></span>
-    <span class="position"></span>
-    <span class="position"></span>
-    <span class="position"></span> 
-    <span class="position"></span>
-    <span class="position"></span>
-    <span class="position"></span> 
+      <div class="hSlide show banner">   
+        <img src="images/group-working (1).jpg">
+        <h1>Achieve</h1>
+      </div>
+      <div class="slide-show nav">
+        <span class="position"></span> 
+        <span class="position"></span> 
+        <span class="position"></span>
+        <span class="position"></span>
+        <span class="position"></span>
+        <span class="position"></span> 
+        <span class="position"></span>
+        <span class="position"></span>
+        <span class="position"></span> 
       </div>
     </section>
     <section class="overview-top">
@@ -136,8 +129,9 @@
         <p><strong>Cost:</strong> $458.86 - $467.43
         See individual course offerings below for actual costs.</p>
     </section>
-    
-    <footer>
+  </main>
+  <footer>
+    <section>
       <h2 class="course-header">Course Info</h2>
       <ul class="course">
           <li><a href="#">Outline</a></li>
@@ -145,6 +139,8 @@
           <li><a href="#">Lessons</a></li>
           <li><a href="#">Contact</a></li>
       </ul>
+    </section>
+    <section>
       <h2 class="reg-header">Registration Info</h2>
       <ul class="registration">
           <li><a href="#0">Talk With An Advisor</a></li>
@@ -152,6 +148,8 @@
           <li><a href="#0">Attend An Info Night</a></li>
           <li><a href="#0">Register</a></li>
       </ul>
+    </section>
+    <section>
       <h2 class="address">Find Us</h2>
       <div class="address-info">
           <p>British Columbia Institue of Technology</p>
@@ -159,7 +157,9 @@
           <p>Burnaby, British Columbia</p>
           <p>Canada, V5G 3H2</p>
       </div>
-    </footer>
+    </section>
+  </footer>
+</div>
 <script src="scripts/script.js"></script> 
 <script src="scripts/slide.js"></script>       
 </body>

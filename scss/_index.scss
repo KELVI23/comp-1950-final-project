@@ -2,3 +2,47 @@
     background-color: $background-overview1;
     background: $background-overview2;
 }
+
+.banner{
+	height: 400px;
+}
+
+.banner img{
+	object-fit: cover;
+	height: 400px;
+}
+
+.overview-info{
+	// background: $background-overview1;
+	// background: $background-overview2;
+	background: white;
+	margin: 20px;
+}
+
+.overview-info p{
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-weight: bold;
+}
+.overview-info p{
+	color: black;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover { opacity: 0.8; }
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 35px;
+}
+
+@media only screen and (max-width:549px){
+    .desktop-nav{
+        display: none;
+    }
+}
