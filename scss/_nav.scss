@@ -80,54 +80,12 @@ body{
 
 .overview-top, footer{
 	background: white;
-
-}
-
-a {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  &:hover { opacity: 0.8; }
-}
-
-p{
-	font-size: 1.2em;
-	line-height: 35px;
-}
-
-.banner{
-	height: 400px;
-}
-
-.banner img{
-	object-fit: cover;
-	height: 400px;
 }
 
 .overview p{
 	padding: 20px;
 	font-size: 1.2em;
-	
 }
-
-.overview-info{
-	// background: $background-overview1;
-	// background: $background-overview2;
-	background: white;
-	margin: 20px;
-}
-
-.overview-info p{
-	text-align: center;
-	padding: 25px;
-	color: white;
-	font-weight: bold;
-}
-.overview-info p{
-	color: black;
-}
-
-
 
 /* nav toggle */
 .nav-toggle {
@@ -187,3 +145,23 @@ p{
 		padding: 0;
 	}
 }
+
+// used for reszing the nav
+@media only screen and (min-width: 550px){
+    .nav-toggle{
+		display: none;
+	}
+
+	nav img{
+		left: 0;
+	}
+
+	.desktop-nav ul{
+		display: flex;
+		
+	}
+}
+
+// .desktop-nav{
+// 	display: flex;
+// }
