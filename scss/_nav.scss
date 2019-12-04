@@ -156,11 +156,30 @@ body{
 		left: 0;
 	}
 
+
+		.desktop-nav {
+			
+		}
+		
+	
 	.desktop-nav ul{
 		display: flex;
+		list-style: none;
+		flex-direction: row;
+		
 		
 	}
-}
+	.desktop-nav li{
+		display: block;
+			padding: 10px 10px;
+			justify-content: flex-end;
+			color: $brightcolor;	
+		
+		
+	}
+	
+	}
+
 
 // .desktop-nav{
 // 	display: flex;
