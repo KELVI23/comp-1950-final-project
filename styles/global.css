@@ -317,10 +317,11 @@ img {
   vertical-align: middle;
 }
 
-.slideshow {
-  padding-top: 15px;
-}
+/*.slideshow{
 
+    margin: 0 0 0 0 ;
+
+}*/
 /* Slideshow container */
 .slide-container {
   position: relative;
@@ -356,7 +357,7 @@ img {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  align-content: center;
+  align-content: c;
 }
 
 .active {
@@ -393,6 +394,11 @@ img {
   }
 
   .numbertext {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .slideshow {
     display: none;
   }
 }
@@ -627,6 +633,8 @@ p {
 .wrapper {
   margin-left: 100px;
   margin-right: 100px;
+  background-color: #ffffff;
+  background-image: url(/images/blu-stripes.png);
 }
 
 .toast {
