@@ -1,7 +1,6 @@
 footer{
 	// background-image: url("..images/mac-monitor");
     padding: $mobile-padding;
-    
 }
 
 footer li{
@@ -12,11 +11,35 @@ footer li{
 
 .address-info{
     text-align: right;
-   
 }
 
 .address-info p{
     line-height: 20px;
-   
 }
+
+.address-info p:first-child{
+    margin-top: 9px;
+}
+
+footer section h2{
+    text-align: left;
+}
+
+footer ul{
+    margin-top: 0;
+
+}
+
+@media only screen and (min-width: 550px){
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .banner{
+        display: none;
+    }
+}
+
+
 
