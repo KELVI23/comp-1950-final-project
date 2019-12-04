@@ -501,8 +501,17 @@ button {
 
   .mobile-day {
     visibility: visible; } }
+.heading {
+  text-align: center; }
+
+.lesson-content {
+  text-align: center; }
+
 .side-nav {
   display: none; }
+
+.all-lessons {
+  padding: 20px; }
 
 .all-lessons div {
   margin-bottom: 20px; }
